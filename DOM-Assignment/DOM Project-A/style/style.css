@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    box-shadow: 0 0 5px black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    padding: 20px;
+  border-radius: 5px;
+}
+
+button {
+    padding: 5px 15px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  
+#displayvalue {
+    font-size: 25px;
+    padding: 3px 15px;
+    border: 1px solid black;
+  }
+
+  #resetbtn {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
+
+  .container h1 {
+    margin-left: 80px;
+    margin-right: 80px;
+  }
